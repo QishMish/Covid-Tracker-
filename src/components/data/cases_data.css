@@ -1,0 +1,73 @@
+.first-page-data{
+    margin: 2rem auto ;
+    max-width: 1500px;
+    width: 80%;
+    padding: 1rem 2rem 3rem 2rem;
+    display: flex;
+    border-bottom: 2px solid #ffff;
+    
+}
+.cases-boxes{
+    flex: 2;
+    display: grid;
+    grid-gap:1rem;
+    grid-template-columns: 1fr 1fr;
+    grid-template-areas:
+    "box1 box1"
+    "box2 box3"
+     ;
+}
+.new-cases{
+    grid-area: box1;
+    background-color: #1D1C22;
+}
+.recoveries{
+    grid-area: box2;
+    background-color: #1D1C22;
+}
+.death{
+    grid-area: box3;
+    background-color: #1D1C22;
+}
+.new-cases,
+.recoveries,
+.death{
+    align-items: center;
+    display: flex;
+    justify-content: space-around;
+    flex-direction: column;
+    padding: 2rem 1rem;
+
+}
+.new-cases h2,
+.recoveries h2,
+.death h2{
+    color: #ffff;
+    font-size: 18px;
+}
+.red{
+    color: #F58A97;
+    font-weight: bold;
+    font-size: 18px;
+}
+.green{
+    color: #0A917F;
+    font-weight: bold;
+    font-size: 18px;
+}
+.content{
+    display: flex;
+    width: 100%;
+    align-items: center;
+    justify-content: space-around;
+}
+.cases-icon{
+    width: 80px;
+    cursor: pointer;
+}
+.covid-map{
+    flex:3;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}

@@ -1,0 +1,33 @@
+.home{
+    height: 100vh;
+    background-color: #292833;
+}
+.home-header{
+    width: 80%;
+    max-width: 1500px;
+    height: 150px;
+    margin: auto;
+    padding: 30px 15px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    border-bottom: 2px solid #ffff;
+}
+.content-left{
+    font-size: 22px;
+    font-weight: bold;
+    color: #ffff;
+    letter-spacing: 1px;
+}
+.content-right{
+    background-color:#0A917F; 
+    width: 220px;
+    height: 60px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+.content-right img{
+    width: 38px;
+}
+
